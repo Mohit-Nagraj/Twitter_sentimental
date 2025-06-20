@@ -1,0 +1,13 @@
+2025-06-20T16:25:15,159 Using pip 25.1.1 from C:\Users\mohit\Desktop\Twitter_sentimental\myenv\Lib\site-packages\pip (python 3.13)
+2025-06-20T16:25:15,161 Non-user install because user site-packages disabled
+2025-06-20T16:25:16,215 Created temporary directory: C:\Users\mohit\AppData\Local\Temp\pip-build-tracker-jpqmghpn
+2025-06-20T16:25:16,216 Initialized build tracking at C:\Users\mohit\AppData\Local\Temp\pip-build-tracker-jpqmghpn
+2025-06-20T16:25:16,216 Created build tracker: C:\Users\mohit\AppData\Local\Temp\pip-build-tracker-jpqmghpn
+2025-06-20T16:25:16,216 Entered build tracker: C:\Users\mohit\AppData\Local\Temp\pip-build-tracker-jpqmghpn
+2025-06-20T16:25:16,218 Created temporary directory: C:\Users\mohit\AppData\Local\Temp\pip-install-3pf6fopv
+2025-06-20T16:25:16,226 Created temporary directory: C:\Users\mohit\AppData\Local\Temp\pip-ephem-wheel-cache-njrky2an
+2025-06-20T16:25:16,285 Created temporary directory: C:\Users\mohit\AppData\Local\Temp\pip-unpack-e3_1y6l4
+2025-06-20T16:25:16,358 Remote version of pip: 25.1.1
+2025-06-20T16:25:16,359 Local version of pip:  25.1.1
+2025-06-20T16:25:16,367 Was pip installed by pip? True
+2025-06-20T16:25:16,367 Removed build tracker: 'C:\\Users\\mohit\\AppData\\Local\\Temp\\pip-build-tracker-jpqmghpn'

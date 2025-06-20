@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prediction Result</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container mt-5">
+    <div class="card text-center shadow p-4">
+      <h2 class="mb-4">Tweet Sentiment Result</h2>
+      
+      {% if prediction.lower() == 'positive' %}
+        <h2>The sentiment is Positive ✅</h2>
+      {% else %}
+        <h2>The sentiment is Negative ❌</h2>
+      {% endif %}
+
+
+      <a href="/" class="btn btn-primary mt-4">Try Another Tweet</a>
+    </div>
+  </div>
+</body>
+
+</html>
