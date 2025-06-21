@@ -40,7 +40,7 @@ def preprocess_text(data):
 app = Flask(__name__,template_folder='Template')
 
 
-model = pickle.load(open("Naive_model.pkl","rb"))
+model = pickle.load(open("nb_multi.pkl","rb"))
 
 @app.route("/", methods=["GET", "POST"])
 def main_function():
