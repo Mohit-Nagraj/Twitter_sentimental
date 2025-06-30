@@ -14,10 +14,13 @@
       <h2 class="mb-4">Tweet Sentiment Result</h2>
       
       {% if prediction.lower() == 'positive' %}
-        <h2>The sentiment is Negative </h2>
+          <h2>The sentiment is <span class="text-success">Positive</span></h2>
+      {% elif prediction.lower() == 'negative' %}
+          <h2>The sentiment is <span class="text-danger">Negative</span></h2>
       {% else %}
-        <h2>The sentiment is Positive</h2>
+          <h2>The sentiment is <span class="text-secondary">Neutral</span></h2>
       {% endif %}
+
 
 
       <a href="/" class="btn btn-primary mt-4">Try Another Tweet</a>
