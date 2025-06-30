@@ -23,7 +23,8 @@ This project analyzes the sentiment of tweets (positive, negative, or neutral) u
 Achieved an accuracy of **94.88%** using **Multinomial Naive Bayes** with TF-IDF features.
 
 ---
-
+## Deployed via Render
+Link ''https://twitter-sentimental.onrender.com''
 ## 🚀 How to Run
 
 ```bash
